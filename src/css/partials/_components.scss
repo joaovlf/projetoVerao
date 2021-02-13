@@ -1,0 +1,86 @@
+
+$rosa:#DA23A7;
+$cinza:#cccccc;
+$fontecinza:#a5a5a5;
+$preto:#000000;
+$fundo:#fffffb;
+
+
+@mixin title-format{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;  
+    
+}
+
+.titulo{
+    @include title-format;
+   color:$rosa ;
+}
+
+.titulo2{
+    @extend .titulo;
+    color:$fontecinza
+}
+.subtitulo{
+    font-size: 2.5rem;
+    color: $fontecinza;
+    font-weight:bold;
+    text-align: center;
+    margin:0;
+}
+
+.subtitulo2{
+    @extend .subtitulo;
+    color: #000000; 
+}
+
+
+.botao{
+    padding:1vw;
+    color: white;
+    background-image:linear-gradient(right,#fd67d0,$rosa );
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow:0.1rem 0.3rem 0.1rem #d858b2;
+    align-self: center;
+    margin:0.5rem 0;
+    font-size: 2rem;   
+}
+
+.botao2{
+    @extend .botao;
+    margin:40vh 0 0 0;
+}
+
+
+
+.botao:hover{ 
+    background-image:linear-gradient(right,$rosa,$rosa);
+    cursor: pointer;
+    
+}
+.botao:focus{
+    outline: none;
+}
+
+
+span{
+    font-weight:800;
+} 
+
+
+small{
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+

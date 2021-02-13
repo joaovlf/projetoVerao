@@ -1,0 +1,157 @@
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    max-width: 800px;
+    
+p{
+    font-size: 2.3rem;
+}
+
+    img{
+        width: 50vw;
+        max-height: 400px;
+        max-width: 600px;
+        
+
+    }
+
+    
+}
+    iframe{
+        
+        width:90vw;
+        height: 80vw;
+        max-height: 400px;
+        max-width: 600px;
+       
+
+        
+    }
+    
+.projeto{
+    background-image:linear-gradient(left,$cinza, rgb(241, 238, 238));
+    border-radius: 0.5rem;
+    width: 100%;
+   
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+           
+  
+    .titulo{
+        
+           
+        p{  
+            
+            font-weight:800;
+        }
+    }
+    
+    .descricao{
+        font-family: "Caveat";
+        text-align:center;
+        color:black;
+        font-size: 2rem;     
+        
+    }
+
+    .tape{
+        width: 3vw;
+        height: 6vh;
+        max-width: 65px;
+        max-height: 65px;
+        min-width: 50px;
+      
+        
+      
+        
+    }
+    .music{
+        width:3vw;        
+        height: 6vh;
+        max-width: 65px;
+        max-height: 65px;
+        min-width: 50px;
+  
+        }
+   
+    }
+}
+
+     .perfil{
+         text-align: center;
+        img{
+           
+            width:25%;
+        }
+
+        p{  margin: 0 auto;
+            width: 60%;
+            min-width:450px;
+            text-align: left;
+        }
+    }
+    
+     
+     small{
+         margin: 0;
+         padding: 0;
+         font-size: 1.8rem;
+     }
+     h3{
+         font-size: 2.5rem;
+         text-align: center;
+         margin-bottom: 0;
+     }
+    
+@media(max-width:768px){
+    .main{
+        
+        width: 85%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .perfil{
+        img{
+            margin-right: none;
+            width:45vw;
+        }
+        p{
+            min-width:90%;
+        }
+    }
+
+
+}
+
+@media (max-width:425){
+.main{
+    
+    .titulo{
+        font-size: 2.8rem;
+
+    }
+    .perfil{
+        img{
+            margin-right: none;
+            width:45vw;
+        }
+        p{  font-size: 2rem;
+            margin: 0 0 0 5%;
+        }
+    }
+
+    
+    
+    }   
+    }
+
+

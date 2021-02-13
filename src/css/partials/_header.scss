@@ -1,0 +1,40 @@
+
+.header{
+    height:auto;
+    text-align: center;
+    
+    
+        img{            
+            width:8vw;
+        }      
+
+    }
+
+
+    
+@media (max-width:768px){
+    .header{
+        
+        img{
+            width: 18vw;
+        }
+    }
+}
+
+
+
+@media (max-width:350px){
+    .header{
+        
+        img{
+            width: 25vw;
+        }
+    }
+}
+
+
+
+
+
+
+
